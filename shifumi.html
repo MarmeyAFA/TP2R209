@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHIFUMI</title>
+</head>
+<body>
+    <script src="shifumi.js"></script>
+    <h1>Shifumi:</h1>
+    <p>Rappel des règles :</br></br>
+        Le principe du jeu :</br></br>
+        * Le joueur humain choisit entre pierre, feuille ou ciseaux puis c’est au programme de choisir</br>
+           aléatoirement une de ces propositions.</br></br>
+        * La page affiche les choix ainsi que le résultat de la manche</br>
+        Les conditions de victoire :</br></br>
+            • La feuille l’emporte sur la pierre</br>
+            • La pierre l’emporte sur le ciseau</br>
+            • Le ciseau l’emporte sur la feuille</br>
+    
+    </p>
+    <p>Choisissez pierre, feuille ou ciseau : </p>
+    <p><select id="choice">
+        <option value="pierre">Pierre</option>
+        <option value="feuille">Feuille</option>
+        <option value="ciseau">Ciseaux</option>
+    </select>
+    <input type="submit" onclick="shifumi">
+    </p>
+    <p>L'adversaire joue : </p>
+    <p id="resultat">Résultat : </p>
+    </body>
+</body>
+</html>
