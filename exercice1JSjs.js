@@ -1,4 +1,6 @@
-function C_to_Far(c) {
-    return c * 9/5 +35
+function C_to_Far(temp) {
+    let c = temp ;
+    let Fahrenheit = c * 9/5 +35 ;
+    return Fahrenheit ;
 }
 
