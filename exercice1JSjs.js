@@ -1,4 +1,4 @@
-function C_to_Far(x) {
-    return x * 9/5 +35
+function C_to_Far(c) {
+    return c * 9/5 +35
 }
 
